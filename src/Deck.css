@@ -1,0 +1,55 @@
+.Deck {
+  font-family: 'Slabo 27px', serif;
+}
+
+.Deck-display {
+  margin-top: 80px;
+}
+
+.Deck-title {
+  color: azure;
+  font-size: 40px;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+}
+
+.Deck-btn-shuffle {
+  background: none;
+  border: 2px solid;
+  border-radius: 25px;
+  outline: none;
+  font: inherit;
+  margin: 0.5em;
+  padding: 1em 2em;
+  color: red;
+  transition: 0.25s;
+}
+
+.Deck-btn-shuffle:hover {
+  border-color: darkred;
+  color: white;
+  box-shadow: inset 0 0 0 2em darkred;
+  cursor: pointer;
+}
+
+.Deck-btn-draw {
+  background: none;
+  border: 2px solid;
+  border-radius: 25px;
+  outline: none;
+  font: inherit;
+  margin: 0.5em;
+  padding: 1em 2em;
+  color: green;
+  transition: 0.25s;
+}
+
+.Deck-btn-draw:hover {
+  border-color: darkgreen;
+  color: white;
+  box-shadow: inset 0 0 0 2em darkgreen;
+  cursor: pointer;
+}
+.subtitle { 
+  font-size: 20px;
+}
